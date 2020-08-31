@@ -44,15 +44,7 @@ class Triangle
       (@side1 != @side2) && (@side1 != @side3) && (@side2 != @side3)
     end
       
-      begin
-        raise PartnerError
-      rescue PartnerError => error
-          puts error.message
-      end
-    else
-      person.partner = self
-    end
-  end
+      
   end
   
   class TriangleError < StandardError
