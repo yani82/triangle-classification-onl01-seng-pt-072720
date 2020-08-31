@@ -45,7 +45,7 @@ class Triangle
     end
       
     def valid? 
-      ()
+      (@side1 + @side2 > @side3) && 
   end
   
   class TriangleError < StandardError
