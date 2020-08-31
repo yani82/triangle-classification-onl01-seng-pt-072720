@@ -26,6 +26,8 @@ class Triangle
       
     def negative? 
       @sides.each do |length| 
+        if(length <= 0) 
+          
       begin
         raise PartnerError
       rescue PartnerError => error
