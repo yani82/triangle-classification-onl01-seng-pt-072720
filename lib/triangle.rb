@@ -24,6 +24,8 @@ class Triangle
     end
   end
       
+    def negative? 
+      @sides.each do |length| 
       begin
         raise PartnerError
       rescue PartnerError => error
