@@ -17,6 +17,7 @@ class Triangle
       raise TriangleError
     elsif(equilateral?)
       :equilateral
+      elsif()
     elsif(isosceles) 
       :isosceles
       
