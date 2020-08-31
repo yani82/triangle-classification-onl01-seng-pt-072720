@@ -41,7 +41,7 @@ class Triangle
     end 
     
     def scalene? 
-      (@side1 != @side)
+      (@side1 != @side2)
       
       begin
         raise PartnerError
