@@ -17,7 +17,8 @@ class Triangle
       raise TriangleError
     elsif(equilateral?)
       :equilateral
-    elsif() person.class != Person
+    elsif(isosceles) 
+    
       begin
         raise PartnerError
       rescue PartnerError => error
