@@ -21,6 +21,8 @@ class Triangle
       :isosceles
     elsif(scalene)
       :scalene
+    end
+  end
       
       begin
         raise PartnerError
