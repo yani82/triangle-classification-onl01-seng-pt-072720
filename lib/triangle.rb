@@ -19,6 +19,7 @@ class Triangle
       :equilateral
     elsif(isosceles) 
       :isosceles
+      
       begin
         raise PartnerError
       rescue PartnerError => error
