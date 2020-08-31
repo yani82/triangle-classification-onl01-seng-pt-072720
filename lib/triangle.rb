@@ -30,7 +30,7 @@ class Triangle
           return true 
         end
       end
-      
+    end
       begin
         raise PartnerError
       rescue PartnerError => error
