@@ -33,6 +33,7 @@ class Triangle
     end
     
     def equilateral?
+      (@side2 == @side3) || (@)
       
       begin
         raise PartnerError
